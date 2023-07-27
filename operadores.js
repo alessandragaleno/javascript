@@ -7,8 +7,8 @@
 let numeroUm = 5
 let numeroDois = 6
 let numeroTres = -1
-const mensagem = NumeroDois ($((numeroDois0)
-NumeroTres + ($(numeroTres)) = $(numeroDois + numeroTres)
+const mensagem = NumeroDois ($((numeroDois0)))
+NumeroTres + ($(numeroTres)) = ($(numeroDois + numeroTres))
 console.log(mensagem)
 
 console.log(numeroDois + numeroTres)
@@ -64,4 +64,15 @@ console.log(c);
 c += 5;
 console.log(c);
 
-
+//operador ternario
+//              
+let nota = 6
+//              teste       verdadeiro     falso
+let resultado = nota > 6 ? 'Aprovado' : 'Reprovado'
+if(nota == 6) {
+    resultado = 'Aprovado'
+}
+else{
+    resultado = 'Reprovado'
+}
+console.log( $(nota == ))
