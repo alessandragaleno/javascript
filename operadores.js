@@ -7,11 +7,14 @@
 let numeroUm = 5
 let numeroDois = 6
 let numeroTres = -1
-const mensagem = NumeroDois ($((numeroDois0)))
+const mensagem = 'NumeroDois (${numeroDois}) + NumeroTres (${numeroTres}) = ${numeroDois + numeroTres}
+
 NumeroTres + ($(numeroTres)) = ($(numeroDois + numeroTres))
+
 console.log(mensagem)
 
-console.log(numeroDois + numeroTres)
+console.log(numeroDois+"+"+numeroTres+"="+(numeroDois = numeroTres))
+
 console.log(numeroDois%numeroUm)
 
 //Relacionais
@@ -75,4 +78,4 @@ if(nota == 6) {
 else{
     resultado = 'Reprovado'
 }
-console.log( $(nota == ))
+console.log( $(nota >= 6 ? 'aprovado' : 'Reprovado')
