@@ -31,9 +31,9 @@ function exibir_agenda(){
     let telefone = alunos_agenda[1]
      let tamanho = aluno.length
 
-     for(posição=0;posicao < tamanho;posicao++){
+     for(posicao=0;posicao < tamanho;posicao++){
         console.log(
-            '${aluno[posicao]} : {telefone[posicao]}'
+            ${aluno[posicao]} : {telefone[posicao]}
         )
      }
 }
@@ -43,7 +43,7 @@ function cadrastra_agenda(){
 
     const prompt = require("prompt-sync")();
 
-    let input = prompt("Qual o nome do aluno?:");
+    let input = prompt("Qual o nome do aluno?");
     aluno.push(input)
 
     if(aluno.includes(input)){
